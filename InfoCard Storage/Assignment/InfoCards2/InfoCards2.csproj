@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E40944D7-01A0-43B4-9DF3-2C66DBFA0BF5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Assignment</RootNamespace>
+    <AssemblyName>InfoCards2</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Assignment\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Assignment\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bookmark\BookmarkInfoCard.cs" />
+    <Compile Include="Bookmark\FormDisplayBookmark.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bookmark\FormDisplayBookmark.Designer.cs">
+      <DependentUpon>FormDisplayBookmark.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bookmark\FormEditBookmark.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bookmark\FormEditBookmark.Designer.cs">
+      <DependentUpon>FormEditBookmark.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Credit Card\CreditCardInfoCard.cs" />
+    <Compile Include="Credit Card\FormEditCreditCards.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Credit Card\FormEditCreditCards.Designer.cs">
+      <DependentUpon>FormEditCreditCards.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Credit Card\FormDisplayCreditCards.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Credit Card\FormDisplayCreditCards.Designer.cs">
+      <DependentUpon>FormDisplayCreditCards.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyInfoCardFactory.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Student ID\StudentIDInfoCard.cs" />
+    <Compile Include="Student ID\FormDisplayStudentID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student ID\FormDisplayStudentID.Designer.cs">
+      <DependentUpon>FormDisplayStudentID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student ID\FormEditStudentID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student ID\FormEditStudentID.Designer.cs">
+      <DependentUpon>FormEditStudentID.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AssignmentInterfaces\AssignmentInterfaces.csproj">
+      <Project>{F99B6B51-BADD-44A7-A314-05514B664B78}</Project>
+      <Name>AssignmentInterfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bookmark\FormDisplayBookmark.resx">
+      <DependentUpon>FormDisplayBookmark.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bookmark\FormEditBookmark.resx">
+      <DependentUpon>FormEditBookmark.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Credit Card\FormEditCreditCards.resx">
+      <DependentUpon>FormEditCreditCards.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Credit Card\FormDisplayCreditCards.resx">
+      <DependentUpon>FormDisplayCreditCards.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student ID\FormDisplayStudentID.resx">
+      <DependentUpon>FormDisplayStudentID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student ID\FormEditStudentID.resx">
+      <DependentUpon>FormEditStudentID.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DefaultPP.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

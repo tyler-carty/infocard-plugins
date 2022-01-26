@@ -1,0 +1,28 @@
+C:\Users\ferri\Desktop\Prog 2 2021\Assignment\Assignment\AssignmentInterfaces\bin\Debug\AssignmentInterfaces.dll
+C:\Users\ferri\Desktop\Prog 2 2021\Assignment\Assignment\AssignmentInterfaces\bin\Debug\AssignmentInterfaces.pdb
+C:\Users\ferri\Desktop\Prog 2 2021\Assignment\Assignment\AssignmentInterfaces\obj\Debug\AssignmentInterfaces.csprojAssemblyReference.cache
+C:\Users\ferri\Desktop\Prog 2 2021\Assignment\Assignment\AssignmentInterfaces\obj\Debug\AssignmentInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\ferri\Desktop\Prog 2 2021\Assignment\Assignment\AssignmentInterfaces\obj\Debug\AssignmentInterfaces.dll
+C:\Users\ferri\Desktop\Prog 2 2021\Assignment\Assignment\AssignmentInterfaces\obj\Debug\AssignmentInterfaces.pdb
+C:\Users\Tyler Cartwright\OneDrive - University of Derby\Year 1\Programming 2\Assignment\AssignmentBaseProject\AssignmentInterfaces\bin\Debug\AssignmentInterfaces.dll
+C:\Users\Tyler Cartwright\OneDrive - University of Derby\Year 1\Programming 2\Assignment\AssignmentBaseProject\AssignmentInterfaces\bin\Debug\AssignmentInterfaces.pdb
+C:\Users\Tyler Cartwright\OneDrive - University of Derby\Year 1\Programming 2\Assignment\AssignmentBaseProject\AssignmentInterfaces\obj\Debug\AssignmentInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\Tyler Cartwright\OneDrive - University of Derby\Year 1\Programming 2\Assignment\AssignmentBaseProject\AssignmentInterfaces\obj\Debug\AssignmentInterfaces.dll
+C:\Users\Tyler Cartwright\OneDrive - University of Derby\Year 1\Programming 2\Assignment\AssignmentBaseProject\AssignmentInterfaces\obj\Debug\AssignmentInterfaces.pdb
+C:\Users\Tyler Cartwright\OneDrive - University of Derby\Year 1\(DONE) Programming 2\Assignment\Assignment\AssignmentInterfaces\bin\Debug\AssignmentInterfaces.dll
+C:\Users\Tyler Cartwright\OneDrive - University of Derby\Year 1\(DONE) Programming 2\Assignment\Assignment\AssignmentInterfaces\bin\Debug\AssignmentInterfaces.pdb
+C:\Users\Tyler Cartwright\OneDrive - University of Derby\Year 1\(DONE) Programming 2\Assignment\Assignment\AssignmentInterfaces\obj\Debug\AssignmentInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\Tyler Cartwright\OneDrive - University of Derby\Year 1\(DONE) Programming 2\Assignment\Assignment\AssignmentInterfaces\obj\Debug\AssignmentInterfaces.dll
+C:\Users\Tyler Cartwright\OneDrive - University of Derby\Year 1\(DONE) Programming 2\Assignment\Assignment\AssignmentInterfaces\obj\Debug\AssignmentInterfaces.pdb
+D:\_Work\_Placement\C# - Information Card Storage\Assignment\AssignmentInterfaces\bin\Debug\AssignmentInterfaces.dll
+D:\_Work\_Placement\C# - Information Card Storage\Assignment\AssignmentInterfaces\bin\Debug\AssignmentInterfaces.pdb
+D:\_Work\_Placement\C# - Information Card Storage\Assignment\AssignmentInterfaces\obj\Debug\AssignmentInterfaces.csproj.AssemblyReference.cache
+D:\_Work\_Placement\C# - Information Card Storage\Assignment\AssignmentInterfaces\obj\Debug\AssignmentInterfaces.csproj.CoreCompileInputs.cache
+D:\_Work\_Placement\C# - Information Card Storage\Assignment\AssignmentInterfaces\obj\Debug\AssignmentInterfaces.dll
+D:\_Work\_Placement\C# - Information Card Storage\Assignment\AssignmentInterfaces\obj\Debug\AssignmentInterfaces.pdb
+C:\Users\tyler\OneDrive\_Personal Development\Portfolio\C# - Information Card Storage\Assignment\AssignmentInterfaces\bin\Debug\AssignmentInterfaces.dll
+C:\Users\tyler\OneDrive\_Personal Development\Portfolio\C# - Information Card Storage\Assignment\AssignmentInterfaces\bin\Debug\AssignmentInterfaces.pdb
+C:\Users\tyler\OneDrive\_Personal Development\Portfolio\C# - Information Card Storage\Assignment\AssignmentInterfaces\obj\Debug\AssignmentInterfaces.csproj.AssemblyReference.cache
+C:\Users\tyler\OneDrive\_Personal Development\Portfolio\C# - Information Card Storage\Assignment\AssignmentInterfaces\obj\Debug\AssignmentInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\tyler\OneDrive\_Personal Development\Portfolio\C# - Information Card Storage\Assignment\AssignmentInterfaces\obj\Debug\AssignmentInterfaces.dll
+C:\Users\tyler\OneDrive\_Personal Development\Portfolio\C# - Information Card Storage\Assignment\AssignmentInterfaces\obj\Debug\AssignmentInterfaces.pdb
